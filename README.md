@@ -13,6 +13,9 @@ Just a Rework of Roque's Popular Status Bot.
 - Removed Embed and Replaced with a Different Style.
 
 ### CONFIG 
+
+In the BOT.JS File, you need to edit `embed` and `embed1` variables to your custom fit. 
+Also set these
 ```
 URL_SERVER - base url for fiveM server e.g. http://127.0.0.1:3501 (don't end with /)
 BOT_TOKEN - Discord bot token
