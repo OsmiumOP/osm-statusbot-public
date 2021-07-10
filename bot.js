@@ -127,19 +127,20 @@ exports.start = function(SETUP) {
         let ver = '1.0.10' 
         let time =  '**Last Refreshed:-** '+ new Date().toLocaleString()+' GMT';
         if (queue !== undefined) {
-          var queue1 = queu // USE IT IF YOU WANT TO
+          var queue1 = queue // USE IT IF YOU WANT TO
         }
         else {
           var queue1 = 0
         }
         if (uptime !== undefined) {
-          var uptime1 = uptime // IF YOU HAVW UPTIME SCRIPT!
+          var uptime1 = uptime // IF YOU HAVE UPTIME SCRIPT!
         }
         else {
           var uptime1 = 'N/A'
         }
-        let embed = `**OsmFX - Restarts every 24 hours - Live server status:**\n\n<a:online:841582219302535168>** Development Server : \`connect 3bbgbb\` | Players : ${players.length}/${MAX_PLAYERS} | Uptime : ${uptime1}**\n\n**OsmFX | Server Version: ${ver} |** ${time}`
-        sendOrUpdate(embed);
+
+        let embed1 = `**OsmFX - Restarts every 24 hours - Live server status:**\n\n<a:online:841582219302535168>** Development Server : \`connect 3bbgbb\` | Players : ${players.length}/${MAX_PLAYERS} | Uptime : ${uptime1}**\n\n**OsmFX | Server Version: ${ver} |** ${time}`
+        sendOrUpdate(embed1);
 
         LAST_COUNT = players.length;
       }).catch(offline);
