@@ -1,2 +1,9 @@
-# osm-statusbot-public
-FiveM Server Status Bot with a Different Style.
+# OSM | DISCORDJS | FiveM Server Status Bot 
+Just a Rework of Roque's Popular Status Bot. 
+
+<a href = "https://media.discordapp.net/attachments/816584207584985092/863318815160008744/unknown.png">
+
+### CHANGES 
+- Compatible with Latest DISCORDJS Version.
+- Removed Suggestions / Bug Channel Features. 
+- Removed Embed and Replaced with a Different Style.
