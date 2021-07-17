@@ -14,7 +14,7 @@
     "discord.js": "^12.5.3",
     "fetch-timeout": "0.0.2",
     "libsodium-wrappers": "^0.7.4",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^1.6.3",
     "uws": "^100.0.1"
   },
   "repository": {
